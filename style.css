@@ -1,0 +1,53 @@
+/*Pull in fonts*/
+@font-face {
+    font-family: kiona-regular;
+    src: url('./assets/Kiona-Regular.ttf');
+}
+@font-face {
+    font-family: space-age;
+    src: url('./assets/space\ age.ttf');
+}
+
+/*GENERAL SET UP*/
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #7f8487;
+    text-align: center;
+}
+/*BODY*/
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: #c6cacb;
+    border: none;
+    border-radius: 10px 100px / 120px;
+}
+
+.card-img-top{
+    border-radius: 10px 100px / 120px;
+}
+
+.modal-content{
+    border-radius: 120px / 100px 10px;
+    padding: 35px;
+}
+
+/*BUTTONS*/
+.modal-footer .btn{
+    background-color: #3d434f;
+    margin-right: 30px;
+}
+
+.btn-dark{
+    background-color: #3d434f;
+}
